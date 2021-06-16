@@ -13,6 +13,11 @@
 		68F5BEB42679CA5E001719FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F5BEB32679CA5E001719FC /* Assets.xcassets */; };
 		68F5BEB72679CA5E001719FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F5BEB62679CA5E001719FC /* Preview Assets.xcassets */; };
 		68F5BEBA2679CA5E001719FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F5BEB82679CA5E001719FC /* LaunchScreen.storyboard */; };
+		68F5BEC22679CAA0001719FC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5BEC12679CAA0001719FC /* DataManager.swift */; };
+		68F5BEC42679CADC001719FC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5BEC32679CADC001719FC /* Person.swift */; };
+		68F5BECA2679D10A001719FC /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5BEC92679D10A001719FC /* ContactList.swift */; };
+		68F5BECC2679D2B9001719FC /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5BECB2679D2B9001719FC /* Numbers.swift */; };
+		68F5BECF267A3AA6001719FC /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5BECE267A3AA6001719FC /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		68F5BEB62679CA5E001719FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68F5BEB92679CA5E001719FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68F5BEBB2679CA5E001719FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F5BEC12679CAA0001719FC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		68F5BEC32679CADC001719FC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		68F5BEC92679D10A001719FC /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		68F5BECB2679D2B9001719FC /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		68F5BECE267A3AA6001719FC /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,14 @@
 		68F5BEAC2679CA5D001719FC /* HW-3.5-ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				68F5BEB12679CA5D001719FC /* ContentView.swift */,
+				68F5BECE267A3AA6001719FC /* DetailsView.swift */,
+				68F5BEC92679D10A001719FC /* ContactList.swift */,
+				68F5BECB2679D2B9001719FC /* Numbers.swift */,
+				68F5BECD2679E717001719FC /* Models & Managers */,
+				68F5BEB32679CA5E001719FC /* Assets.xcassets */,
 				68F5BEAD2679CA5D001719FC /* AppDelegate.swift */,
 				68F5BEAF2679CA5D001719FC /* SceneDelegate.swift */,
-				68F5BEB12679CA5D001719FC /* ContentView.swift */,
-				68F5BEB32679CA5E001719FC /* Assets.xcassets */,
 				68F5BEB82679CA5E001719FC /* LaunchScreen.storyboard */,
 				68F5BEBB2679CA5E001719FC /* Info.plist */,
 				68F5BEB52679CA5E001719FC /* Preview Content */,
@@ -73,6 +87,15 @@
 				68F5BEB62679CA5E001719FC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68F5BECD2679E717001719FC /* Models & Managers */ = {
+			isa = PBXGroup;
+			children = (
+				68F5BEC12679CAA0001719FC /* DataManager.swift */,
+				68F5BEC32679CADC001719FC /* Person.swift */,
+			);
+			path = "Models & Managers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F5BECA2679D10A001719FC /* ContactList.swift in Sources */,
+				68F5BEC42679CADC001719FC /* Person.swift in Sources */,
+				68F5BECC2679D2B9001719FC /* Numbers.swift in Sources */,
 				68F5BEAE2679CA5D001719FC /* AppDelegate.swift in Sources */,
+				68F5BEC22679CAA0001719FC /* DataManager.swift in Sources */,
+				68F5BECF267A3AA6001719FC /* DetailsView.swift in Sources */,
 				68F5BEB02679CA5D001719FC /* SceneDelegate.swift in Sources */,
 				68F5BEB22679CA5D001719FC /* ContentView.swift in Sources */,
 			);
