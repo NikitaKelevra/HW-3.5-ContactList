@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct Numbers: View {
-    
     let persons: [Person]
     
     var body: some View {
@@ -17,6 +16,10 @@ struct Numbers: View {
                 ForEach(persons) { person in
                     Section(
                         header: Text("\(person.fullName)")
+                            .font(.system(size: 18,
+                                          weight: .light,
+                                          design: .serif))
+                            .textCase(.none)
                     ){
                         HStack {
                             Image(systemName: "phone")

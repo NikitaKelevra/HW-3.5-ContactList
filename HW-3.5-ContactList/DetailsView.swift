@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DetailsView: View {
-    
     let person: Person
     
     var body: some View {
@@ -27,7 +26,6 @@ struct DetailsView: View {
                 Text("\(person.email)")
             }
         }
-        
         .navigationBarTitle("\(person.fullName)")
             .font(.title2)
     }
